@@ -1,0 +1,148 @@
+body{
+    padding: 0 2rem 0 2rem;
+    background-color:black;
+}
+header{
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.pembungkus{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.pembungkus-header{
+    position: absolute;
+    float: center;
+    text-align: center;
+    transform-origin: left top 5;
+    font-size: 8rem;
+    color: white;
+}
+
+
+
+
+.page-header {
+    float: left;
+    transform-origin: left top 0;
+    position: absolute;
+    font-size: 10rem;
+}
+
+.vertikal {
+    position: absolute;
+    float: right;
+    transform: rotate(90deg);
+    transform-origin: right top 0;
+    margin-left: 700px;
+    padding: 10px;
+    /* background-color: rgba(37, 34, 34, 0.3);
+    opacity: 0.9; */
+    font-size: 3rem;
+    /* color: rgb(161, 67, 67); */
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.name {
+    text-align: center;
+}
+  
+.images-pageheader {
+    position: relative;
+    
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;
+  
+}
+  
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.socmed{
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.card-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+  
+.left-card {
+    /*background-image: url("images/hobbies.png");*/
+    background-color: #beb1a2;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80rem;
+}
+ 
+
+
+.stun-all{
+    position: absolute;
+    float: center;
+    text-align: center;
+    transform-origin: left bottom 5;
+    font-size: 5rem;
+    color: rgb(119, 89, 87)
+    /* color: rgb(83, 50, 50); */
+}
+.photos{
+    font-family: "Castoro";
+    color: white;
+}
+  
+.photos-section{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+  
+.box-photo{
+    width: 20rem;
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+  
+}
+  
+.container{
+    margin: 1rem;
+}
+  
+.box-photo-two{
+    /* background-color: rgba(219, 196, 196, 0.5); */
+    color: white;
+    font-weight: 400;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: flex-end;
+}
+  
+.text{
+    padding: 1rem;
+}
+  
+#nature{
+    background-image: url("images/people.jpg");
+}
+  
+#herb{
+    background-image: url("images/greentea.jpg");
+}
